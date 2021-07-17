@@ -9,6 +9,6 @@ unsigned int factorial(unsigned int n)
 		return 1;
 	return n * factorial(n - 1);
 }
-
+echo "you have your factorial of $n"
 
 
